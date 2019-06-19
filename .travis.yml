@@ -11,7 +11,7 @@ script:
   - echo 'url-personaliza.com' > public/CNAME
 deploy:
   provider: pages
-  skig-cleanup: true
+  skip-cleanup: true
   keep-history: true
   github-token: $GITHUB_TOKEN
   local-dir: dist/
