@@ -56,7 +56,7 @@ const About = ({ avatar, name, profession, bio, address, social }) => (
         <div className="About-container">
             <AboutAvatar>
                 <figure>
-                    <AboutImg src="https://rickandmortyapi.com/api/character/avatar/2.jpeg" alt={name}/>
+                    <AboutImg src={avatar} alt={name}/>
                 </figure>
             </AboutAvatar>
             <AboutName>
